@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>NEXORA — Projetos, tarefas e ideias em um só lugar</title>
+<meta name="description" content="A NEXORA reúne projetos, tarefas e ideias em um único ambiente inteligente. Marca fictícia criada para portfólio.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230B0D12'/%3E%3Cpath d='M9 23V9l14 14V9' fill='none' stroke='%239B8CFF' stroke-width='3'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <div class="wrap">
+    <a class="logo" href="#topo" aria-label="NEXORA, início">
+      <svg viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M7 25V7l18 18V7" stroke="#F5F5F7" stroke-width="3" stroke-linejoin="round"/><circle cx="7" cy="7" r="3.5" fill="#9B8CFF"/><circle cx="25" cy="25" r="3.5" fill="#72E5C2"/></svg>
+      NEXORA
+    </a>
+    <button class="burger" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu"><span></span><span></span><span></span></button>
+    <nav id="menu" aria-label="Principal">
+      <a href="#funcionalidades">Funcionalidades</a>
+      <a href="#beneficios">Benefícios</a>
+      <a href="#planos">Planos</a>
+      <a class="btn pri sm" href="#comecar">Começar grátis</a>
+    </nav>
+  </div>
+</header>
+
+<main id="topo">
+<section class="hero" id="produto" aria-labelledby="h-hero">
+  <div class="wrap">
+    <h1 id="h-hero"><span>Seu trabalho,</span><span>finalmente</span><span>em um lugar.</span></h1>
+    <p class="lead">A NEXORA reúne projetos, tarefas e ideias soltas em um único ambiente. Você vê o que importa agora e o que vem depois, sem trocar de ferramenta.</p>
+    <div class="cta-row">
+      <a class="btn pri" href="#comecar">Começar grátis</a>
+      <a class="btn" href="#app">Testar o painel abaixo</a>
+    </div>
+
+    <div class="app" id="app" aria-label="Demonstração interativa do painel da NEXORA">
+      <aside class="side" id="side"></aside>
+      <div class="main" id="main"></div>
+    </div>
+    <p class="hint" style="margin-top:var(--s3)">Painel de demonstração: marque tarefas e troque de projeto. Os dados são fictícios e ficam só no seu navegador.</p>
+  </div>
+</section>
+
+<section id="beneficios" aria-labelledby="h-ben">
+  <div class="wrap">
+    <h2 id="h-ben">Menos troca de contexto.<br>Mais trabalho feito.</h2>
+    <div class="ben">
+      <div><h3>Tudo no mesmo ambiente</h3><p>Projetos, tarefas e notas vivem juntos. Você para de procurar onde anotou aquela ideia.</p></div>
+      <div><h3>Prioridade visível</h3><p>Cada projeto mostra o que está concluído, o que está em andamento e o que vence primeiro.</p></div>
+      <div><h3>Ideias viram tarefas</h3><p>Anote rápido e organize depois. A NEXORA sugere em qual projeto cada nota se encaixa.</p></div>
+      <div><h3>Equipe alinhada sem reunião de status</h3><p>Quem faz o quê, e em que ponto está, aparece na própria tarefa.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="funcionalidades" style="padding-top:0" aria-labelledby="h-func">
+  <div class="wrap">
+    <h2 id="h-func">O que você faz na NEXORA</h2>
+
+    <div class="feat">
+      <div class="txt"><h3>Organização inteligente</h3><p>Despeje ideias sem pensar em pastas. A NEXORA sugere o projeto de cada uma para você confirmar com um toque.</p></div>
+      <div class="panel" id="inbox">
+        <div id="notes"></div>
+        <button class="btn pri sm" id="org" style="margin-top:var(--s4)">Organizar ideias</button>
+        <p class="hint">Demonstração local: as sugestões seguem regras fixas, sem IA real.</p>
+      </div>
+    </div>
+
+    <div class="feat flip">
+      <div class="txt"><h3>Visão geral dos projetos</h3><p>Veja todos os projetos na mesma linha do tempo e identifique cedo o que está apertado.</p></div>
+      <div class="panel" role="img" aria-label="Linha do tempo de três projetos ao longo de oito semanas">
+        <div class="tl" style="padding-bottom:var(--s5)">
+          <span class="wk">S1</span><span class="wk">S2</span><span class="wk">S3</span><span class="wk">S4</span><span class="wk">S5</span><span class="wk">S6</span><span class="wk">S7</span><span class="wk">S8</span>
+          <div class="b" style="grid-column:1/6;background:var(--vio)">Lançamento do app</div>
+          <div class="b" style="grid-column:3/8;background:var(--mint)">Site institucional</div>
+          <div class="b" style="grid-column:5/9;background:var(--surf2);color:var(--ink);border:1px solid var(--line)">Pesquisa com usuários</div>
+          <span class="today"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="feat">
+      <div class="txt"><h3>Colaboração e acompanhamento</h3><p>Atualize o status direto na tarefa. O histórico registra cada mudança para ninguém precisar perguntar.</p></div>
+      <div class="panel">
+        <div style="display:flex;justify-content:space-between;align-items:center;gap:var(--s3);flex-wrap:wrap">
+          <div><strong>Revisar fluxo de cadastro</strong><div class="muted" style="font-size:.875rem">Responsável: Marina</div></div>
+          <label class="muted" style="font-size:.875rem">Status
+            <select id="st"><option>A fazer</option><option selected>Em andamento</option><option>Concluída</option></select></label>
+        </div>
+        <ul class="log" id="log" aria-live="polite"><li>Marina iniciou a tarefa</li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="proof" aria-labelledby="h-proof">
+  <div class="wrap">
+    <span class="tag">Conteúdo ilustrativo</span>
+    <h2 id="h-proof" style="margin-top:var(--s4);max-width:18ch">Para quem organiza o trabalho de outras pessoas</h2>
+    <div class="sc">
+      <article><h3>Quem lidera um produto</h3><p>Acompanha lançamento, pesquisa e backlog sem montar planilhas paralelas. Cenário de uso imaginado, não depoimento.</p></article>
+      <article><h3>Quem trabalha por conta própria</h3><p>Mantém vários clientes e ideias soltas sob controle em um só painel.</p></article>
+      <article><h3>Times pequenos</h3><p>Sabem quem está com cada tarefa sem abrir outra conversa.</p></article>
+    </div>
+    <p class="hint">A NEXORA é uma marca fictícia. Não há clientes, depoimentos ou métricas reais nesta página.</p>
+  </div>
+</section>
+
+<section id="planos" aria-labelledby="h-plan">
+  <div class="wrap">
+    <h2 id="h-plan">Comece sem pagar nada</h2>
+    <div class="sw" role="group" aria-label="Período de cobrança">
+      <button aria-pressed="true" data-p="m">Mensal</button><button aria-pressed="false" data-p="a">Anual</button>
+    </div>
+    <div class="plans">
+      <div class="plan"><h3>Pessoal</h3><div class="price">R$ 0<small> /mês</small></div><ul><li>3 projetos ativos</li><li>Notas e tarefas ilimitadas</li><li>Organização de ideias</li></ul><button class="btn" data-plan="Pessoal">Escolher Pessoal</button></div>
+      <div class="plan hl"><h3>Pro</h3><div class="price"><span data-m="39" data-a="31">39</span><small> R$/mês</small></div><ul><li>Projetos ilimitados</li><li>Linha do tempo geral</li><li>Histórico de atividades</li></ul><button class="btn pri" data-plan="Pro">Escolher Pro</button></div>
+      <div class="plan"><h3>Equipe</h3><div class="price"><span data-m="29" data-a="24">29</span><small> R$/pessoa/mês</small></div><ul><li>Tudo do Pro</li><li>Responsáveis e comentários</li><li>Visão compartilhada</li></ul><button class="btn" data-plan="Equipe">Escolher Equipe</button></div>
+    </div>
+    <p class="hint">Valores fictícios, apenas para demonstração.</p>
+  </div>
+</section>
+
+<section class="final" id="comecar" style="border-top:1px solid var(--line)" aria-labelledby="h-final">
+  <div class="wrap">
+    <h2 id="h-final">Pare de procurar. Comece a fazer.</h2>
+    <p class="lead" style="margin-top:var(--s4)">Reúna seus projetos, tarefas e ideias na NEXORA.</p>
+    <form class="cap" id="form" novalidate>
+      <input type="email" id="email" name="email" placeholder="seu@email.com" aria-label="Seu e-mail" autocomplete="email" required>
+      <button class="btn pri" type="submit">Entrar na lista</button>
+    </form>
+    <p id="msg" role="status"></p>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div><a class="logo" href="#topo">NEXORA</a><p class="muted" style="margin-top:var(--s3);max-width:34ch;font-size:.9375rem">Projetos, tarefas e ideias em um único ambiente.</p></div>
+    <div><h3>Página</h3><ul><li><a href="#produto">Painel</a></li><li><a href="#funcionalidades">Funcionalidades</a></li><li><a href="#beneficios">Benefícios</a></li><li><a href="#planos">Planos</a></li></ul></div>
+    <div><h3>Começar</h3><ul><li><a href="#comecar">Entrar na lista</a></li><li><a href="#topo">Voltar ao topo</a></li></ul></div>
+    <p class="legal">NEXORA é uma marca fictícia criada para fins de portfólio. Não existe empresa, CNPJ, produto ou contato real associado a esta página.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

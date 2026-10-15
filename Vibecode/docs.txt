@@ -1,0 +1,67 @@
+# DOCUMENTAÇÃO DO PROJETO — NEXORA
+
+## 1. Sobre o projeto
+
+A NEXORA é uma marca fictícia de tecnologia criada para a atividade de vibecode. A proposta foi desenvolver uma landing page para uma plataforma de organização de tarefas, projetos e ideias.
+
+O objetivo foi criar uma página moderna, intuitiva e responsiva, explorando como a inteligência artificial pode ajudar no desenvolvimento de interfaces.
+
+## 2. Identidade visual
+
+Escolhi um estilo minimalista e tecnológico, com fundo escuro e detalhes coloridos para destacar os elementos importantes da página.
+
+Paleta de cores utilizada como proposta inicial:
+
+- Fundo: #0B0D12
+- Cards: #141821
+- Roxo: #9B8CFF
+- Verde menta: #72E5C2
+- Texto principal: #F5F5F7
+- Texto secundário: #A0A6B5
+
+A ideia foi criar uma aparência moderna, com boa leitura, organização das informações e destaque para os botões e as funcionalidades.
+
+## 3. Referências visuais
+
+Algumas referências para observar estilos e boas práticas de interfaces digitais:
+
+- Linear: https://linear.app/
+- Stripe: https://stripe.com/
+- Framer: https://www.framer.com/
+- Notion: https://www.notion.com/
+
+Essas referências servem como inspiração para estudar a organização das informações, a tipografia e a apresentação de produtos digitais. A intenção não é copiar os sites, mas utilizar ideias como ponto de partida.
+
+## 4. Uso da inteligência artificial
+
+Utilizei a inteligência artificial como apoio para planejar e desenvolver a landing page, definir a estrutura das seções e orientar a criação da identidade visual e dos componentes.
+
+O prompt principal solicitou uma página para a NEXORA com visual moderno, paleta consistente, apresentação das funcionalidades, demonstração de um painel e adaptação para diferentes tamanhos de tela.
+
+Prompt principal utilizado:
+
+[COLE AQUI O PROMPT COMPLETO QUE VOCÊ ENVIOU À IA.]
+
+## 5. Decisões de design
+
+A página foi organizada para apresentar primeiro a proposta da NEXORA e, em seguida, mostrar suas funcionalidades e benefícios.
+
+Optei por utilizar um fundo escuro com detalhes em roxo e verde menta para criar contraste e transmitir uma ideia de tecnologia. Também procurei manter os textos objetivos e distribuir os elementos para facilitar a navegação.
+
+A demonstração do painel foi incluída para tornar a proposta do produto mais visual e mostrar como a plataforma poderia funcionar.
+
+## 6. Ajustes e melhorias
+
+Durante o desenvolvimento, é importante observar se a página apresenta problemas de alinhamento, legibilidade, responsividade ou funcionamento dos botões.
+
+Principais ajustes realizados:
+
+[DESCREVA AQUI OS AJUSTES QUE VOCÊ REALMENTE FEZ. SE NÃO FEZ NENHUM, REGISTRE OS QUE IDENTIFICOU COMO NECESSÁRIOS, SEM DIZER QUE JÁ FORAM CORRIGIDOS.]
+
+## 7. Avaliação final
+
+O projeto permitiu explorar o uso da inteligência artificial na criação de uma interface web e perceber a importância de fornecer instruções claras para obter um resultado mais próximo do esperado.
+
+Além da aparência, também foi necessário considerar a organização das informações, a identidade visual e o funcionamento dos elementos interativos.
+
+Concluo que o vibecode facilita o processo de desenvolvimento, mas a revisão humana continua sendo importante para avaliar a qualidade do resultado e identificar oportunidades de melhoria.
