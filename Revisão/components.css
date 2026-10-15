@@ -1,0 +1,89 @@
+body {
+    font-family: var(--body);
+    background-color: var(--bg);
+    color: var(--light);
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 1100px;
+    width: 100%;
+    margin: auto;
+    padding: 0 40px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: var(--primary);
+    color: var(--light);
+    border: none;
+    border-radius: 30px;
+    padding: 14px 32px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color .3s, transform .3s;
+}
+
+.btn:hover {
+    background-color: var(--primary-dark);
+    transform: translateY(-2px);
+}
+
+.btn:active {
+    transform: translateY(0);
+}
+
+.section-head {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-head .eyebrow {
+    display: block;
+    color: var(--primary);
+    font-family: var(--title);
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.section-head h2 {
+    font-family: var(--title);
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.section-head p {
+    max-width: 640px;
+    margin: 20px auto 0;
+    font-size: 15px;
+    color: var(--text);
+}
+
+.card {
+    background-color: var(--card);
+    border-radius: 12px;
+    padding: 30px 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-family: var(--title);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.logo-circle {
+    display: block;
+    width: 26px;
+    height: 26px;
+    border: 2px solid var(--primary);
+    border-radius: 50%;
+}

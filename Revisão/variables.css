@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300..700&family=Poppins:wght@500;600;700&display=swap');
+
+:root {
+    --primary: #9b59e0;
+    --primary-dark: #7f43c4;
+    --hero: #35205a;
+    --bg: #0b0a14;
+    --surface: #221a35;
+    --card: #2a2141;
+    --footer: #14111c;
+    --input: #110e19;
+    --border: #5b34a8;
+    --light: #ffffff;
+    --text: #cdc6da;
+
+    --title: 'Poppins', sans-serif;
+    --body: 'Inter', sans-serif;
+}
